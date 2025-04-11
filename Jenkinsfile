@@ -16,7 +16,7 @@ pipeline {
             steps {
                 echo "Checking out code from the repository..."
                 // This pulls the latest code from your Git repository.
-                git url: 'http://your-git-server/YourRepo.git', branch: 'main'
+                git url: 'https://github.com/shashikab/teamA.git', branch: 'main'
             }
         }
 
