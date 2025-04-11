@@ -26,7 +26,7 @@ pipeline {
                 // Run a shell command to download and install apictl.
                 sh '''
                     # Download the Linux version of apictl (adjust URL/version if needed)
-                    curl -L -o apictl.tar.gz "https://github.com/wso2/product-apim-tooling/releases/download/v4.4.1/apictl-4.4.1-linux-i586.tar.gz"
+                    curl -L -o apictl.tar.gz "https://github.com/wso2/product-apim-tooling/releases/download/v4.4.1/apictl-4.4.1-darwin-arm64.tar.gz"
                     
                     # Create a temporary folder for extraction
                     mkdir -p /tmp/apictl
